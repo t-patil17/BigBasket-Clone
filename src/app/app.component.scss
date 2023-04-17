@@ -1,0 +1,549 @@
+
+// nav 
+.nav .nav-item .nav-link {
+    color: #6B6868;
+    font-size: 14px;
+   
+    
+}
+// nav{
+//   position:sticky;
+// }
+
+nav{
+    margin-right: 70px;
+}
+
+.navbar .navbar-nav .nav-item img {
+    margin-left: 80px;
+    width: 200px;
+    height: 80px;
+    margin-top: -25px;
+}
+
+nav form input {
+    width: 30em;
+    
+}
+nav form {
+    margin-right: 210px;
+}
+nav form  button{
+    background-color: #6cd138;
+    color: white;
+    border: none;
+    height: 31px;
+    // border: 1px solid #84c225;
+}
+
+ .basket i  {
+    color: red;
+    font-size: 30px;
+    padding-top: 13px;
+    
+    
+}
+
+.basket{
+    display: flex;
+    padding: 0px 10px;
+}
+
+nav .basket {
+    background-color:#f2f2f2;
+    margin-right: 70px;
+    // height: 50px;
+    width: 130px;
+}
+
+nav .basket p {
+    text-align: right;
+    color: #4d4d4d;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+// tag icon offer 
+.navbar-1 .offer-btn i {
+    color: red;
+    font-size: 17px;
+}
+
+
+.navbar-1 .offer-btn button{
+    border: 1px solid gray;
+    width: 69.5em;
+    text-align: start;
+    color: #6B6868;
+    font-size: 13px;
+    padding: 6.5px 15px;
+    background: none;
+    
+}
+.navbar-1 .offer-btn span:hover{
+    background-color: rgb(33, 149, 33);
+    
+    color: white;
+    
+}
+.navbar-1 .offer-btn span{
+    padding: 10px 10px;
+    margin-left: -15px;
+
+}
+
+
+/* Navbar container mega menu */
+.navbar-1 {
+    overflow: hidden;
+    
+    font-family: Arial;
+    margin-left: 65px;
+    
+  }
+
+  .navbar-1 a {
+    float: left;
+    font-size: 13px;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+/* The dropdown container */
+.dropdown-1 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown-1 .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 16px;
+    
+    background-color:#6cd138;
+    width: 16em;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+
+
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 76%;
+    
+    box-shadow:  10px 10px  rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-1:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23%;
+    // padding: 10px;
+     height: 480px;
+  }
+
+  .clmn-1 a{
+    border-bottom: 1px solid rgb(176, 175, 175);
+  }
+ 
+  .clmn-2 {
+    background-color:  #f2f2f2;
+  }
+  .clmn-3{
+    border-right: 1.5px dotted grey;
+  }
+
+  /* Style links inside the columns */
+  .column a {
+    float: none;
+    color: gray;
+    // padding: 16px;
+    line-height:0%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a background color on hover */
+  .clmn-1 a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+  }
+
+  .clmn-2 a:hover {
+    background-color:white;
+    color: black;
+    font-weight: 550;
+
+  }
+
+  .clmn-3 a:hover{
+    color: green;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+// carousel 
+
+.main-img img {
+    margin-top: 40px;
+    
+    
+}
+
+.head {
+    margin-top: 30px;
+}
+.head h4 {
+    text-align: center;
+    margin-left: 170px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+
+.head button {
+    background-color: rgb(132, 194, 37);
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 1px 6px;
+    font-size: 14px;
+}
+
+
+.bank-card h4 {
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.card-deck .card:hover {
+    
+  box-shadow:  rgba(0,0,0,0.24) 1px 3px 8px 5px ;
+      
+}
+
+
+
+.items h4 {
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+
+.offer-product h4 {
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+
+.all-product h4 {
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 400;
+    margin-top: 30px;  
+}
+
+
+
+.slideshow   {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+
+
+.paragraph{
+box-sizing: border-box;
+border: 1px solid gray;
+margin-top: 40px;
+
+
+
+}
+
+.paragraph h3 {
+    font-weight: 450;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+.paragraph p{
+    margin-left: 15px;
+    color: #6B6868;
+    font-size: 14px;
+}
+
+.paragraph ul li {
+    color: #333;
+    font-size: 14px;
+
+}
+
+.paragraph button{
+    margin: 10px 20px;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.footer{
+    margin-left: 20px;
+}
+.footer h6 {
+    color: #6cd138;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+.footer a {
+    display: flex;
+    text-decoration: none;
+    color: gray;
+    font-family: ProximaNovaA-Regular;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+.footer a:hover{
+    color: darkgreen;
+}
+
+.footer a img {
+    margin-top: 15px;
+    width: 75%;
+    
+}
+
+.footer .icon i {
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+// facebook icon 
+.footer .fa-facebook-f{
+    color:aliceblue;
+    background-color: #3b5998;
+    line-height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    text-align: center;
+    
+    
+}
+
+.footer .fa-facebook-f:hover{
+    color: #3b5998;
+    background-color:white;
+    border: 1.5px solid #3b5998;
+    
+    
+}
+
+// pinterest icon 
+.footer .fa-pinterest-p{
+    color:aliceblue;
+    background-color: red;
+    line-height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+}
+
+.footer .fa-pinterest-p:hover{
+    color: red;
+    background-color:white;
+    border: 1.5px solid red;
+    
+    
+}
+
+// twitter icon 
+.footer .fa-twitter{
+    color:aliceblue;
+    background-color: #00aced;
+    line-height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+
+    
+    
+}
+
+.footer .fa-twitter:hover{
+    color: #00aced;
+    background-color:white;
+    border: 1.5px solid #00aced;
+    
+    
+}
+
+// instagram icon 
+.footer .fa-instagram{
+    color:aliceblue;
+    background-color: #517fa4;
+    line-height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+
+    
+    
+}
+
+.footer .fa-instagram:hover{
+    color: #517fa4;
+    background-color:white;
+    border: 1.5px solid #517fa4;
+   
+    
+}
+
+
+.btm-foot h6 {
+    color: #6cd138 ;
+    font-weight: 400;
+    font-size:smaller;
+    margin-left: 40px;
+}
+
+.btm-foot  p a {
+text-decoration: none;
+color:gray;
+font-size: 14px;
+}
+
+
+.btm-foot  p  {
+   
+    color:gray;
+    font-size: 14px;
+  }
+
+  .btm-foot  img {
+    margin-left: -160px;
+    
+  }
+
+   .copyright p {
+    height: 40px;
+    background-color: rgba(135, 132, 132, 0.258);
+    
+    color: #808080;
+    padding-left: 13em;
+    font-size: 12px;
+    padding-top: 10px;
+    
+  }
+
+// .carousel-inner .card {
+    
+// }
+
+.card .badge {
+    text-align: right;
+    font-weight: 500;
+    font-size: 10px;
+}
+  .vegicon {
+    width: 25px;
+    margin-left: 10px;
+  }
+
+  .card p {
+    margin-left: 10px;
+    font-size: 11px;
+  }
+
+  .card-body .card-title{
+    color: #000;
+    font: 14px ProximaNovaA-Regular;
+    margin-top: -24px;
+    
+  }
+  .card form select{
+    width: 100%;
+    font-size: 13px;
+    color:#333;
+  }
+
+  .card .prize{
+    display: flex;
+    margin-top: 8px;
+  }
+  .card .prize span{
+    text-decoration: line-through;
+  }
+  .card .prize h6{
+    font: 14px ProximaNovaA-Regular;
+    padding-left: 8px;
+    
+  }
+  .card .delivery {
+    display: flex;
+  }
+  .card .delivery i {
+    color: #4d4d4d;
+    margin-left: 5px;
+  }
+  .card .time h6 {
+    font-size: 11px;
+    margin-left: 35px;
+    margin-top: -15px;
+
+  }
+  .card .input-group span{
+    color:#6B6868;
+  }
+
+  .card .add-btn i{
+    color: #414041;
+  }
+  .card .add-btn button{
+    background-color: #fee67c;
+    padding: 3px 10px;
+  }
